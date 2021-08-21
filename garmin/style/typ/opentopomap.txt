@@ -2019,7 +2019,7 @@ String=0x02,Bundesstraße
 String=0x04,primary street
 ExtendedLabels=Y
 FontStyle=SmallFont
-LineWidth=5
+LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "a c #fdb548"
@@ -2030,7 +2030,7 @@ Xpm="0 0 2 0"
 Type=0x04
 ExtendedLabels=Y
 FontStyle=SmallFont
-LineWidth=5
+LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
 "a c #fdfd4f"
@@ -2052,7 +2052,7 @@ Xpm="0 0 2 0"
 Type=0x06
 ExtendedLabels=Y
 FontStyle=SmallFont
-LineWidth=4
+LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
 "a c #ffffff"
@@ -2064,7 +2064,7 @@ Type=0x07
 String=2,Weg
 ExtendedLabels=Y
 FontStyle=SmallFont
-LineWidth=2
+LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
 "a c #ffffff"
@@ -2386,6 +2386,48 @@ Xpm="32 32 2 1"
 " 00      00      00      00     "
 "00      00      00      00      "
 [end]
+
+[_polygon]
+Type=0x05
+String=0x02,Parkplatz
+String=0x04,parking
+Xpm="32 32 2 1"
+"  c #004cff"
+"0 c #ffffff"
+"                                "
+"                                "
+"                                "
+"          000             000   "
+"          0  0            0  0  "
+"          000             000  "
+"          0               0     "
+"          0               0     "
+"                                "
+"                                "
+"                                "
+"  000             000           "
+"  0  0            0  0          "
+"  000             000           "
+"  0               0             "
+"  0               0             "
+"                                "
+"                                "
+"                                "
+"          000             000   "
+"          0  0            0  0  "
+"          000             000   "
+"          0               0     "
+"          0               0     "
+"                                "
+"                                "
+"                                "
+"  000             000           "
+"  0  0            0  0          "
+"  000             000           "
+"  0               0             "
+"  0               0             "
+[end]
+
 
 [_polygon]
 Type=0x10
