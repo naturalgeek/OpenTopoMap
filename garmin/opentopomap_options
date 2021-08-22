@@ -1,8 +1,8 @@
 # family-id: 53000
 product-id: 1
-product-version: 106
+product-version: 110
 draw-priority: 20
-copyright-message=Waldrian, OpenStreetMap contributors, OpenTopoMap CC-BY-NC-SA 4.0
+copyright-message=Waldrian CC-BY-NC-SA 4.0, OpenStreetMap contributors, OpenTopoMap CC-BY-NC-SA 4.0
 # family-name="familyname"
 # series-name="seriesname"
 # area-name="areaname"

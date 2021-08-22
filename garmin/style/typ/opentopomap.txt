@@ -44,6 +44,8 @@ Type=0x1a,5
 			;cemetery
 Type=0x04,6
 			;exclusion zone
+Type=0x05,6
+			;parking lot
 [end]
 
 
@@ -1028,7 +1030,7 @@ String2=0x04,attraction
 ;size: 90
 ;bmp:&1B2B
 ExtendedLabels=N
-DayXpm="16 16 36 2" Colormode=16
+DayXpm="18 16 36 2" Colormode=16
 "$$ c #CFCFCF"
 "$% c #EAEAEA"
 "$& c #FFFFFF"
@@ -1065,22 +1067,22 @@ DayXpm="16 16 36 2" Colormode=16
 "&% c #C7C7C7"
 "&& c #CACACA"
 "&' c none"
-"&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'"
-"&'&'&'&'&'&'&'&'&'&'&'&'&'$&&'&'"
-"&'$&$&$&$&$&$&$&$&$&$&$&$&%*$&&'"
-"$&$)$)$)$)$)$)$)$)$)$)$)$)$)$)$&"
-"$)&%$($(&%&%&%%%%%&%&%&%&%&%&%$)"
-"$)%.$&$&$(&%&%&%&%&%&%&%%*%*&%$)"
-"$)&%$'$'&%&%$,$)$)$,&%&%$0&%$0$)"
-"$)&%&%&%&%$,$)$'$'$)$,&%$0&%$0$)"
-"$)&%&%&%&%$)$-$,$'$'$)&%$0&%$0$)"
-"$)&%&%&%&%$)$'$'$'$'$)&%$0&%$0$)"
-"$)&%&%&%&%$,$)$'$'$)$,&%$0&%$0$)"
-"$)&%&%&%&%&%$,$)$)$,&%&%$0&%$0$)"
-"$&$)$)$)$)$)$)$)$)$)$)$)$)$)$)$&"
-"&'$&$&$&$&$&$&$&$&$&$&$&$&$&$&&'"
-"&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'"
-"&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'"
+"&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'"
+"&'&'&'&'&'&'&'&'&'&'&'&'&'&'$&&'&'&'"
+"&'&'$&$&$&$&$&$&$&$&$&$&$&$&%*$&&'&'"
+"&'$&$)$)$)$)$)$)$)$)$)$)$)$)$)$)$&&'"
+"$&$)&%$($(&%&%&%%%%%&%&%&%&%&%&%$)$&"
+"$&$)%.$&$&$(&%&%&%&%&%&%&%%*%*&%$)$&"
+"$&$)&%$'$'&%&%$,$)$)$,&%&%$0&%$0$)$&"
+"$&$)&%&%&%&%$,$)$'$'$)$,&%$0&%$0$)$&"
+"$&$)&%&%&%&%$)$-$,$'$'$)&%$0&%$0$)$&"
+"$&$)&%&%&%&%$)$'$'$'$'$)&%$0&%$0$)$&"
+"$&$)&%&%&%&%$,$)$'$'$)$,&%$0&%$0$)$&"
+"$&$)&%&%&%&%&%$,$)$)$,&%&%$0&%$0$)$&"
+"&'$&$)$)$)$)$)$)$)$)$)$)$)$)$)$)$&&'"
+"&'&'$&$&$&$&$&$&$&$&$&$&$&$&$&$&&'&'"
+"&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'"
+"&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'&'"
 [end]
 
 
@@ -1617,6 +1619,7 @@ DayXpm="8 12 5 1"
 ".++++++."
 " ...... "
 [end]
+
 
 [_point]
 Type=0x3002
@@ -2209,7 +2212,7 @@ Xpm="0 0 2 0"
 [_line]
 Type=0x05
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 LineWidth=5
 BorderWidth=1
 Xpm="0 0 2 0"
@@ -2220,7 +2223,7 @@ Xpm="0 0 2 0"
 [_line]
 Type=0x06
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 LineWidth=3
 BorderWidth=1
 Xpm="0 0 2 0"
@@ -2232,7 +2235,7 @@ Xpm="0 0 2 0"
 Type=0x07
 String=2,Weg
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
@@ -2265,7 +2268,7 @@ Xpm="0 0 2 0"
 [_line]
 Type=0x0a
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 LineWidth=2
 Xpm="0 0 1 0"
 "a c #000000"
@@ -2285,7 +2288,7 @@ Xpm="0 0 2 0"
 [_line]
 Type=0x0c
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 LineWidth=2
 BorderWidth=1
 Xpm="0 0 2 0"
@@ -2298,7 +2301,7 @@ Type=0x0d
 String=0x02,Fußgängerzone
 String=0x04,pedestrian zone
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 LineWidth=1
 BorderWidth=1
 Xpm="0 0 2 0"
@@ -2338,7 +2341,7 @@ Type=0x16
 String=0x02,Fußweg
 String=0x04,footway
 ExtendedLabels=Y
-FontStyle=SmallFont
+FontStyle=NoLabel (invisible)
 Xpm="32 1 2 1"
 "  c none"
 "# c #000000"
@@ -2394,10 +2397,12 @@ Type=0x1e
 String=0x02,Grenze
 String=0x04,border
 ExtendedLabels=Y
-FontStyle=NoLabel (invisible)
-Xpm="32 2 2 1"
+FontStyle=NormalFont
+Xpm="32 4 2 1"
 "  c none"
 "# c #ff80ff"
+"##############        ##        "
+"##############        ##        "
 "##############        ##        "
 "##############        ##        "
 [end]
