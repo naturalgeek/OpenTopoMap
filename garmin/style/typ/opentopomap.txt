@@ -2566,10 +2566,10 @@ Type=0x05
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 String=0x02,Parkplatz
-String=0x04,parking
+String=0x04,parking lot
 Xpm="32 32 2 1"
-"  c #004cff"
-"0 c #ffffff"
+"  c none"
+"0 c #0000ff"
 "                                "
 "                                "
 "                                "
