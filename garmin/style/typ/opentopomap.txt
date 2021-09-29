@@ -2166,9 +2166,9 @@ String=0x04,motorway
 ExtendedLabels=Y
 FontStyle=SmallFont
 LineWidth=5
-BorderWidth=1
+BorderWidth=2
 Xpm="0 0 2 0"
-"a c #ff1c1c"
+"a c #f6a924"
 "b c #000000"
 [end]
 
@@ -2181,7 +2181,7 @@ FontStyle=SmallFont
 LineWidth=5
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #fdb548"
+"a c #f6a924"
 "b c #000000"
 [end]
 
@@ -2194,7 +2194,7 @@ FontStyle=SmallFont
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #fdb548"
+"a c #fff381"
 "b c #000000"
 [end]
 
@@ -2205,7 +2205,7 @@ FontStyle=SmallFont
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #fdfd4f"
+"a c #f3a79f"
 "b c #000000"
 [end]
 
@@ -2250,7 +2250,7 @@ FontStyle=SmallFont
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #fdfd4f"
+"a c #f3a79f"
 "b c #000000"
 [end]
 
@@ -2261,7 +2261,7 @@ FontStyle=SmallFont
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #fdb548"
+"a c #f6a924"
 "b c #000000"
 [end]
 
@@ -2281,7 +2281,7 @@ FontStyle=SmallFont
 LineWidth=4
 BorderWidth=1
 Xpm="0 0 2 0"
-"a c #fdfd4f"
+"a c #f3a79f"
 "b c #000000"
 [end]
 
@@ -2355,7 +2355,7 @@ String=0x02,Bach
 String=0x04,stream
 LineWidth=1
 Xpm="0 0 1 0"
-"0 c #1d4dff"
+"0 c #b0cfea"
 [end]
 
 [_line]
@@ -2414,10 +2414,10 @@ String=0x04,river
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor=#1d4dff
+DaycustomColor=#b0cfea
 LineWidth=3
 Xpm="0 0 1 0"
-"0 c #1d4dff"
+"0 c #b0cfea"
 [end]
 
 [_line]
@@ -2612,7 +2612,7 @@ String=0x02,built-up area
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="0 0 1 0"
-"a c #ebebeb"
+"a c #ecf0f2"
 [end]
 
 [_polygon]
@@ -2622,7 +2622,8 @@ FontStyle=NoLabel (invisible)
 String=0x02,Gebäude
 String=0x04,building
 Xpm="0 0 1 0"
-"a c #404040"
+"a c #000000"
+#"a c #404040"
 [end]
 
 [_polygon]
@@ -2630,8 +2631,8 @@ Type=0x17
 String=0x02,Wiese
 String=0x04,meadow
 Xpm="32 32 2 1"
-"  c none"
-"0 c #00c000"
+"  c #e1f0e7"
+"0 c #e1f0e7"
 "                                "
 "                                "
 "                                "
@@ -2723,7 +2724,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 32 2 1"
 "0 c #77cc77"
-"1 c #c7fc65"
+"1 c #cde4cd"
 "11111111111111111111111111111111"
 "11111111111111111111111111111111"
 "11111111111111111111111111111111"
@@ -2766,7 +2767,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 32 2 1"
 "0 c #77cc77"
-"1 c #c7fc65"
+"1 c #cde4cd"
 "11111111111111111111111111111111"
 "11111111111111111111111111111111"
 "11111111111111111111111111111111"
@@ -2806,7 +2807,7 @@ Type=0x32
 String=0x02,Meer
 String=0x04,sea
 Xpm="0 0 1 0"
-"a c #72ceff"
+"a c #d4e1f1"
 [end]
 
 
@@ -2817,7 +2818,7 @@ String3=0x02,Gewässer
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#1d4dff
+DaycustomColor=#d4e1f1
 Xpm="0 0 1 0"
 "1 c #72ceff"
 [end]
@@ -2830,7 +2831,7 @@ String3=0x02,Gewässer
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="0 0 1 0"
-"1 c #72ceff"
+"1 c #d4e1f1"
 [end]
 
 
@@ -2841,9 +2842,9 @@ String=0x04,river
 ExtendedLabels=Y
 FontStyle=SmallFont
 CustomColor=Day
-DaycustomColor:#1d4dff
+DaycustomColor=#b0cfea
 Xpm="0 0 1 0"
-"a c #72ceff"
+"a c #b0cfea"
 [end]
 
 [_polygon]
@@ -2853,13 +2854,13 @@ String=0x04,river
 ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="0 0 1 0"
-"a c #72ceff"
+"a c #b0cfea"
 [end]
 
 [_polygon]
 Type=0x4b
 Xpm="0 0 1 0"
-"a c #ffffff"
+"a c #fbfcea"
 [end]
 
 [_polygon]
@@ -2952,7 +2953,7 @@ ExtendedLabels=Y
 FontStyle=NoLabel (invisible)
 Xpm="32 32 2 1"
 "0 c #77cc77"
-"1 c #c7fc65"
+"1 c #cde4cd"
 "11111111111111111111111111111111"
 "11111111111111111111111111111111"
 "11111111111111111111111111111111"
