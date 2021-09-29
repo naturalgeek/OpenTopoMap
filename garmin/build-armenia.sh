@@ -7,8 +7,8 @@ BOUNDS_FILE="$(pwd)/bounds-latest.zip"
 SEA_FILE="$(pwd)/sea-latest.zip"
 DEM_FILE=
 
-continent=europe
-countryname_short=georgia
+continent=asia
+countryname_short=armenia
 continentdate=`date`
 FAMILY_ID=42425
 MKGMAP_OPTS="$(pwd)/opentopomap_options"
