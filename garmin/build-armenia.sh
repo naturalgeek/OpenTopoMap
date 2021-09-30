@@ -5,12 +5,12 @@ BOUNDS=/home/marco/repos/OpenTopoMap-NG/garmin/bounds/
 
 BOUNDS_FILE="$(pwd)/bounds-latest.zip"
 SEA_FILE="$(pwd)/sea-latest.zip"
-DEM_FILE=
+DEM_FILE=/home/marco/viewfinderpanoramas
 
 continent=asia
 countryname_short=armenia
 continentdate=`date`
-FAMILY_ID=42425
+FAMILY_ID=42426
 MKGMAP_OPTS="$(pwd)/opentopomap_options"
 REDUCED_DENSITY=""
 GMAPI="--gmapi"
@@ -45,7 +45,7 @@ popd > /dev/null
 #    --precomp-sea=$SEA \
 #    --output-dir=output --bounds=$BOUNDS $DATA $TYPFILE
 
-java -Xmx5000m -jar $MKGMAP_JAR --output-dir=$MKGMAP_OUTPUT_DIR --style-file=$MKGMAP_STYLE_FILE --description="Waldrian TOPO ${countryname_short} ${continentdate}" --area-name="Waldrian TOPO ${countryname_short} ${continentdate}" --overview-mapname="Waldrian_TOPO_${countryname_short}" --family-name="Waldrian TOPO ${countryname_short} ${continentdate}" --family-id=$FAMILY_ID --series-name="Waldrian TOPO ${countryname_short} ${continentdate}" --bounds=$BOUNDS_FILE --precomp-sea=$SEA_FILE -c $MKGMAP_OPTS $REDUCED_DENSITY $GMAPI $mkgmapin $MKGMAP_TYP_FILE &> $MKGMAP_OUTPUT_DIR/mkgmap.log
+java -Xmx5000m -jar $MKGMAP_JAR --output-dir=$MKGMAP_OUTPUT_DIR --style-file=$MKGMAP_STYLE_FILE --description="Waldrian TOPO ${countryname_short} ${continentdate}" --area-name="Waldrian TOPO ${countryname_short} ${continentdate}" --overview-mapname="Waldrian_TOPO_${countryname_short}" --family-name="Waldrian TOPO ${countryname_short} ${continentdate}" --family-id=$FAMILY_ID --series-name="Waldrian TOPO ${countryname_short} ${continentdate}" --bounds=$BOUNDS_FILE --precomp-sea=$SEA_FILE --dem=/home/marco/dem/ -c $MKGMAP_OPTS $REDUCED_DENSITY $GMAPI $mkgmapin $MKGMAP_TYP_FILE &> $MKGMAP_OUTPUT_DIR/mkgmap.log
 #java -Xmx10000m -jar $MKGMAP_JAR --output-dir=$MKGMAP_OUTPUT_DIR --style-file=$MKGMAP_STYLE_FILE --description="OpenTopoMap ${countryname_short^} ${continentdate}" --area-name="OpenTopoMap ${countryname_short^} ${continentdate}" --overview-mapname="OpenTopoMap_${countryname_short^}" --family-name="OpenTopoMap ${countryname_short^} ${continentdate}" --family-id=$FAMILY_ID --series-name="OpenTopoMap ${countryname_short^} ${continentdate}" --bounds=$BOUNDS_FILE --precomp-sea=$SEA_FILE --dem=$DEM_FILE -c $MKGMAP_OPTS $REDUCED_DENSITY $GMAPI $mkgmapin $MKGMAP_TYP_FILE &> $MKGMAP_OUTPUT_DIR/mkgmap.log
 
 
