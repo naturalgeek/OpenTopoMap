@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MapProduct xmlns="http://www.garmin.com/xmlschemas/MapProduct/v1">
+ <Name>Waldrian TOPO georgia So 22. Aug 13:21:58 +04 2021</Name>
+ <DataVersion>110</DataVersion>
+ <DataFormat>Original</DataFormat>
+ <ID>42425</ID>
+ <IDX>Waldrian_TOPO_georgia.mdx</IDX>
+ <MDR>Waldrian_TOPO_georgia_mdr</MDR>
+ <TYP>xopentopomap.typ</TYP>
+<SubProduct>
+ <Name>Waldrian TOPO georgia So 22. Aug 13:21:58 +04 2021</Name>
+ <ID>1</ID>
+ <BaseMap>Waldrian_TOPO_georgia</BaseMap>
+ <TDB>Waldrian_TOPO_georgia.tdb</TDB>
+ <Directory>Product1</Directory>
+</SubProduct>
+</MapProduct>

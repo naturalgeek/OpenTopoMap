@@ -1,0 +1,16 @@
+Mkgmap version 4802
+Time started: Wed Sep 29 23:54:36 GET 2021
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240002.osm.pbf: The check-roundabouts option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240004.osm.pbf: The check-roundabouts option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240005.osm.pbf: The check-roundabouts option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240004.osm.pbf: The check-roundabout-flares option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240003.osm.pbf: The check-roundabouts option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240005.osm.pbf: The check-roundabout-flares option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240001.osm.pbf: The check-roundabouts option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240003.osm.pbf: The check-roundabout-flares option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240001.osm.pbf: The check-roundabout-flares option is deprecated - use report-roundabout-issues.
+SEVERE (RoundaboutCheck): /home/marco/repos/OpenTopoMap-NG/garmin/data/63240002.osm.pbf: The check-roundabout-flares option is deprecated - use report-roundabout-issues.
+Number of MapFailedExceptions: 0
+Number of ExitExceptions: 0
+Time finished: Wed Sep 29 23:55:36 GET 2021
+Total time taken: 1 minute 
